@@ -64,7 +64,7 @@
 </head>
 <body>
   <header>
-    <img src="https://imgur.com/DDVpQeg.png" alt="24/7 Live Games Logo" class="logo">
+    <img src="https://imgur.com/a/cIfRSpN.png" alt="24/7 Live Games Logo" class="logo">
     <h1>🎲 24/7 Live Games</h1>
     <img src="https://imgur.com/FfwMhjn.png" alt="Live Games Banner" class="banner">
   </header>
