@@ -12,10 +12,12 @@
       padding: 30px;
       line-height: 1.6;
     }
+
     h1, h2, h3 {
       color: gold;
       text-shadow: 0 0 6px #ff0000aa;
     }
+
     section {
       background-color: #121212;
       border: 1px solid #333;
@@ -24,17 +26,21 @@
       margin-bottom: 40px;
       box-shadow: 0 0 10px #0008;
     }
+
     ul {
       padding-left: 20px;
     }
+
     li::marker {
       color: #00bfff;
     }
+
     form {
       margin-top: 15px;
     }
+
     input, select, button {
-      margin: 5px;
+      margin: 5px 0;
       padding: 10px;
       font-size: 16px;
       border-radius: 6px;
@@ -42,28 +48,33 @@
       width: 100%;
       box-sizing: border-box;
     }
+
+    input::placeholder {
+      color: #aaa;
+    }
+
     button {
       background-color: red;
       color: white;
       cursor: pointer;
     }
+
     button:hover {
       background-color: #cc0000;
     }
+
     header img.logo {
       max-width: 160px;
       display: block;
       margin: 0 auto 20px;
     }
+
     .banner {
       width: 100%;
       max-width: 1000px;
       margin: 20px auto;
       display: block;
       border-radius: 8px;
-    }
-    input::placeholder {
-      color: #aaa;
     }
   </style>
 </head>
@@ -77,11 +88,13 @@
   <section>
     <h2>🎯 Reserve Your Number</h2>
     <p>Pick a number (1–6) for the current live game and enter your Solana wallet address and username. Donations are required to participate. Send 1 SOL to: <strong>YOUR_SOL_WALLET_ADDRESS</strong></p>
+    
     <form action="https://formsubmit.co/247livebets@gmail.com" method="POST">
       <input type="hidden" name="_captcha" value="false">
-      
+      <input type="hidden" name="_next" value="https://zionfounder.github.io/LiveBets/">
+
       <input type="text" name="username" placeholder="Your Username" required>
-      <input type="text" name="wallet" placeholder="Your Solana Wallet" required>
+      <input type="text" name="wallet" placeholder="Your Solana Wallet Address" required>
 
       <select name="number" required>
         <option value="">Pick a Number</option>
@@ -94,7 +107,6 @@
       </select>
 
       <button type="submit">Reserve Number</button>
-      <input type="hidden" name="_next" value="https://zionfounder.github.io/LiveBets/">
     </form>
   </section>
 
@@ -159,4 +171,3 @@
   </section>
 </body>
 </html>
-
