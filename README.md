@@ -1,2 +1,152 @@
-# GameLoungeRNG
-Live Game Show
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎲 24/7 Live Games</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0b0b0b, #1c1c1c);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: gold;
+      text-shadow: 0 0 6px #ff0000aa;
+    }
+    section {
+      background-color: #121212;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px #0008;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li::marker {
+      color: #00bfff;
+    }
+    form {
+      margin-top: 15px;
+    }
+    input, select, button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: none;
+    }
+    button {
+      background-color: red;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #cc0000;
+    }
+    header img.logo {
+      max-width: 160px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .banner {
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://imgur.com/DDVpQeg.png" alt="24/7 Live Games Logo" class="logo">
+    <h1>🎲 24/7 Live Games</h1>
+    <img src="https://imgur.com/FfwMhjn.png" alt="Live Games Banner" class="banner">
+  </header>
+
+  <section>
+    <h2>🎯 Reserve Your Number</h2>
+    <p>Pick a number (1–6) for the current live game and enter your Solana wallet address. Donations are required to participate. Send 1 SOL to: <strong>YOUR_SOL_WALLET_ADDRESS</strong></p>
+    <form action="https://formsubmit.co/247livebets@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="wallet" placeholder="Your Solana Wallet" required>
+      <select name="number" required>
+        <option value="">Pick a Number</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <button type="submit">Reserve Number</button>
+      <input type="hidden" name="_next" value="https://zionfounder.github.io/LiveBets/">
+    </form>
+  </section>
+
+  <section>
+    <h2>🧠 About Us</h2>
+    <p>24/7 Live Games is an unpredictable, high-energy livestream betting platform built for entertainment, community, and deflationary crypto economics. This isn’t just a game — it’s an experiment in building something real, raw, and rewarding from the ground up.</p>
+    <p>We’re not launching with studio lighting and million-dollar sets. We’re starting this in a room, with makeshift props, DIY games, and a big vision. Over time, with the community’s support, we’ll grow this into a full-blown livestreaming production — with custom game setups, studio-grade streaming, and a vibrant ecosystem that gives back.</p>
+    <p>Whether you’re watching, betting, or just vibing with the chat, you’re part of something we’re building together — from scratch.</p>
+  </section>
+
+  <section>
+    <h2>🎡 How to Play</h2>
+    <ol>
+      <li>🌹 Spin the Wheel - The host spins a digital wheel to randomly select the game.</li>
+      <li>🔢 Reserve Your Number (1–6) - Players reserve numbers by donating. Once all six are taken, the game starts.</li>
+      <li>🎮 Game is Played Live - Performed on stream. No edits. No retakes.</li>
+      <li>🏆 1st, 2nd, 3rd Win - Three numbers are picked by gameplay outcome. Prizes go out instantly.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>🎮 Available Games</h2>
+    <ul>
+      <li>🎲 Dice Roll</li>
+      <li>🚗 Card Draw</li>
+      <li>🔴 Ball Drop (Plinko Style)</li>
+      <li>🐸 Meme Race (Crypto Edition)</li>
+      <li>🪙 Coin Flip</li>
+    </ul>
+    <p>🔄 Games rotate weekly. Suggestions welcome. Chaos guaranteed.</p>
+  </section>
+
+  <section>
+    <h2>💎 Tokenomics</h2>
+    <ul>
+      <li>Supply: 1,000,000,000,000 initial / 100,000,000 goal</li>
+      <li>Model: Deflationary with burns after every cycle</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>💸 House Earnings Allocation</h2>
+    <ul>
+      <li>50% to buy-back of token</li>
+      <li>25% of buy-back is burned forever</li>
+      <li>25% reserved for strategy</li>
+      <li>30% to Treasury (community tools, events, marketing)</li>
+      <li>20% to Weekly Jackpot</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📈 Token Utility (Evolving)</h2>
+    <ul>
+      <li>In-game advantages</li>
+      <li>Entry to premium prize pools</li>
+      <li>Vote on new games</li>
+      <li>Future staking, rewards, tiers</li>
+    </ul>
+    <h3>🤝 Community Growth</h3>
+    <p>This is built for everyone. Not just insiders. As we grow, so do your tokens.</p>
+  </section>
+</body>
+</html>
